@@ -35,10 +35,11 @@ h1 {
 }
 
 h2 {
-  font-size: 4.5rem;
-  font-weight: 400;
-  line-height: 6rem;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 5.62rem;
   font-style: normal;
+  color: #FFFFFF;
 }
 
 h3 {
@@ -63,9 +64,9 @@ h5 {
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 400;
-  line-height: 2.4rem;
+  line-height: 2rem;
   font-style: normal;
 }
 
@@ -137,6 +138,12 @@ li {
   border: 2px solid #66C05D;
   background: #FFFFFF;
 }
+.button_more {
+  border: 2px solid #FFFFFF;
+  background: #66C05D;
+  color: #FFFFFF;
+  letter-spacing: 0.05em;
+}
 
 .wrapper {
   max-width: 1110px;
@@ -153,6 +160,9 @@ li {
 }
 .wrapper_header-bottom {
   padding: 30px 0;
+}
+.wrapper_about {
+  padding: 192px 0;
 }
 
 .header__top {
@@ -176,6 +186,21 @@ li {
   line-height: 1;
   font-style: 88rem;
   padding-right: 40px;
+}
+
+.about {
+  background: url(/images/background.png) no-repeat;
+  background-position: center;
+}
+
+.about__title {
+  padding-bottom: 60px;
+}
+
+.about__text {
+  max-width: 308px;
+  color: #FFFFFF;
+  padding-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

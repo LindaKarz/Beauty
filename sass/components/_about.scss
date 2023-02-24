@@ -1,0 +1,14 @@
+.about {
+  background: url(/images/background.png) no-repeat;
+  background-position: center;
+}
+
+.about__title {
+  padding-bottom: 60px;
+}
+
+.about__text {
+  max-width: 308px;
+  color: $color-light-text;
+  padding-bottom: 50px;
+}

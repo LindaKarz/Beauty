@@ -8,4 +8,10 @@
     border: 2px solid $color-brand;
     background: $color-light-text;
   }
+  &_more {
+    border: 2px solid $color-light-text;
+    background: $color-brand;
+    color: $color-light-text;
+    letter-spacing: 0.05em;
+  }
 }

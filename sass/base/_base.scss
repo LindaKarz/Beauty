@@ -29,7 +29,8 @@ h1 {
 }
 
 h2 {
-  @include font(4.5rem, 400, 6rem);
+  @include font(4.8rem, 700, 5.62rem);
+  color: $color-light-text;
 }
 
 h3 {
@@ -45,7 +46,7 @@ h5 {
 }
 
 p {
-  @include font(1.6rem, 400, 2.4rem);
+  @include font(1.4rem, 400, 2rem);
 }
 
 a {
