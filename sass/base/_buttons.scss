@@ -14,4 +14,13 @@
     color: $color-light-text;
     letter-spacing: 0.05em;
   }
+  &_buy {
+    width: 130px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    color: $color-light-text;
+    letter-spacing: 0.05em;
+    background: $color-brand;
+  }
 }

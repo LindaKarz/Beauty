@@ -1,0 +1,34 @@
+.offer {
+  background: $color-background;
+}
+
+.offer__title {
+  padding-bottom: 38px;
+}
+
+.offer__item {
+  max-width: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: $color-light-text;
+  padding: 25px 30px;
+  >* {
+    padding-bottom: 20px;
+  }
+}
+
+.item__description {
+  color: $color-top-text;
+  text-align: center;
+}
+
+.item__price {
+  @include font(2.1rem, 500, 2.46rem);
+  letter-spacing: 0.05em;
+}
+
+.item__button {
+  padding-bottom: 0;
+}

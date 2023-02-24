@@ -3,12 +3,14 @@
   background-position: center;
 }
 
-.about__title {
-  padding-bottom: 60px;
+.about__content {
+  max-width: 308px;
+  height: 219px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .about__text {
-  max-width: 308px;
   color: $color-light-text;
-  padding-bottom: 50px;
 }
