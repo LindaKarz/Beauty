@@ -1,0 +1,11 @@
+.button {
+  width: 170px;
+  height: 40px;
+  @include font(1.4rem, 400, 1.64rem);
+  border-radius: 40px;
+  cursor: pointer;
+  &_call-back {
+    border: 2px solid $color-brand;
+    background: $color-light-text;
+  }
+}

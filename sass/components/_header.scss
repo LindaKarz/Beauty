@@ -1,0 +1,20 @@
+.header__top {
+  background: $color-background;
+}
+
+.header__center {
+  border-bottom: 1px solid $color-background;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 340px;
+}
+
+.tel-number {
+  @include font(1.6rem, 400, 1,88rem);
+  padding-right: 40px;
+}
+

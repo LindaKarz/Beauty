@@ -1,3 +1,181 @@
+html {
+  scroll-behavior: smooth;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 4.22rem;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  color: #66C05D;
+}
+
+h2 {
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 6rem;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 4.27rem;
+  font-style: normal;
+}
+
+h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.42rem;
+  font-style: normal;
+}
+
+h5 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+  font-style: normal;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 260px;
+}
+
+.logo__icon {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: url(/images/logo.svg) no-repeat;
+}
+
+.logo__text {
+  padding-left: 20px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation_top {
+  max-width: 450px;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1;
+  font-style: 64rem;
+  color: #333333;
+}
+.navigation_bottom {
+  max-width: 675px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1;
+  font-style: 88rem;
+}
+
+.navigation__link {
+  cursor: pointer;
+}
+
+.button {
+  width: 170px;
+  height: 40px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.64rem;
+  font-style: normal;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.button_call-back {
+  border: 2px solid #66C05D;
+  background: #FFFFFF;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.wrapper_header-top {
+  padding: 17px 0;
+}
+.wrapper_header-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.wrapper_header-bottom {
+  padding: 30px 0;
+}
+
+.header__top {
+  background: #EFEFEF;
+}
+
+.header__center {
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 340px;
+}
+
+.tel-number {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1;
+  font-style: 88rem;
+  padding-right: 40px;
+}
 
 /*# sourceMappingURL=style.css.map */

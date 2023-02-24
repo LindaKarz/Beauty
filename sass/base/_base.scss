@@ -1,0 +1,58 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  @include font(1.4rem, 400, 2rem);
+}
+
+h1 {
+  @include font(3.6rem, 700, 4.22rem);
+  letter-spacing: 0.1em;
+  color: $color-brand;
+}
+
+h2 {
+  @include font(4.5rem, 400, 6rem);
+}
+
+h3 {
+  @include font(3.2rem, 400, 4.27rem);
+}
+
+h4 {
+  @include font(1.4rem, 700, 2.42rem);
+}
+
+h5 {
+  @include font(1.4rem, 700, 1.6rem);
+}
+
+p {
+  @include font(1.6rem, 400, 2.4rem);
+}
+
+a {
+  text-decoration: none;
+  color: $color-main-text;
+}
+
+li {
+  list-style: none;
+}

@@ -1,0 +1,16 @@
+.wrapper {
+  max-width: $content-width;
+  margin: 0 auto;
+  &_header-top {
+    padding: 17px 0;
+  }
+  &_header-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  &_header-bottom {
+    padding: 30px 0;
+  }
+}

@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 260px;
+}
+
+.logo__icon {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: url(/images/logo.svg) no-repeat;
+}
+
+.logo__text {
+  padding-left: 20px;
+}
