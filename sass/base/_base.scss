@@ -38,7 +38,8 @@ h3 {
 }
 
 h4 {
-  @include font(1.4rem, 700, 2.42rem);
+  @include font(1.8rem, 700, 2.1rem);
+  color: $color-light-text;
 }
 
 h5 {

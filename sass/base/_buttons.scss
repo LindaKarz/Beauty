@@ -23,4 +23,11 @@
     letter-spacing: 0.05em;
     background: $color-brand;
   }
+  &_shops {
+    height: 35px;
+    background: $color-brand;
+    color: $color-light-text;
+    border-radius: 30px;
+    border: 2px solid $color-light-text;
+  }
 }

@@ -1,0 +1,49 @@
+.info {
+  background: $color-background;
+}
+
+.subscribe {
+  max-width: 540px;
+  display: flex;
+  align-items: center;
+  background: $color-brand;
+  padding: 35px 45px 35px 40px;
+}
+
+.subscribe__content {
+  padding-right: 65px;
+}
+
+.subscribe__title {
+  padding-bottom: 25px;
+}
+
+.subscribe__text {
+  max-width: 231px;
+  color: $color-light-text;
+  padding-bottom: 25px;
+}
+
+.subscribe__image {
+  width: 140px;
+  height: 140px;
+  background: url(/images/envelope.png) no-repeat;
+}
+
+.shops {
+  max-width: 540px;
+  display: flex;
+  align-items: center;
+  background: $color-brand;
+  padding: 35px 45px 35px 40px;
+}
+
+.shops__title {
+  padding-bottom: 25px;
+}
+
+.shops__text {
+  max-width: 141px;
+  color: $color-light-text;
+  padding-bottom: 25px;
+}

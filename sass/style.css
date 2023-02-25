@@ -50,10 +50,11 @@ h3 {
 }
 
 h4 {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 700;
-  line-height: 2.42rem;
+  line-height: 2.1rem;
   font-style: normal;
+  color: #FFFFFF;
 }
 
 h5 {
@@ -153,6 +154,21 @@ li {
   letter-spacing: 0.05em;
   background: #66C05D;
 }
+.button_shops {
+  height: 35px;
+  background: #66C05D;
+  color: #FFFFFF;
+  border-radius: 30px;
+  border: 2px solid #FFFFFF;
+}
+
+.input {
+  width: 225px;
+  height: 35px;
+  padding: 9px 0 9px 25px;
+  border-radius: 30px;
+  border: none;
+}
 
 .wrapper {
   max-width: 1110px;
@@ -175,6 +191,18 @@ li {
 }
 .wrapper_offer {
   padding: 80px 0 100px 0;
+}
+.wrapper_info {
+  padding: 0 0 133px 0;
+}
+
+.layout-2-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-2-column > * {
+  flex-basis: 48.65%;
 }
 
 .layout-4-column {
@@ -262,6 +290,56 @@ li {
 
 .item__button {
   padding-bottom: 0;
+}
+
+.info {
+  background: #EFEFEF;
+}
+
+.subscribe {
+  max-width: 540px;
+  display: flex;
+  align-items: center;
+  background: #66C05D;
+  padding: 35px 45px 35px 40px;
+}
+
+.subscribe__content {
+  padding-right: 65px;
+}
+
+.subscribe__title {
+  padding-bottom: 25px;
+}
+
+.subscribe__text {
+  max-width: 231px;
+  color: #FFFFFF;
+  padding-bottom: 25px;
+}
+
+.subscribe__image {
+  width: 140px;
+  height: 140px;
+  background: url(/images/envelope.png) no-repeat;
+}
+
+.shops {
+  max-width: 540px;
+  display: flex;
+  align-items: center;
+  background: #66C05D;
+  padding: 35px 45px 35px 40px;
+}
+
+.shops__title {
+  padding-bottom: 25px;
+}
+
+.shops__text {
+  max-width: 141px;
+  color: #FFFFFF;
+  padding-bottom: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
