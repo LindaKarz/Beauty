@@ -4,6 +4,9 @@
 
 .offer__title {
   padding-bottom: 38px;
+  @include media-laptop {
+    text-align: center;
+  }
 }
 
 .offer__item {
@@ -16,6 +19,9 @@
   padding: 25px 30px;
   >* {
     padding-bottom: 20px;
+  }
+  @include media-laptop {
+    margin-bottom: 20px;
   }
 }
 

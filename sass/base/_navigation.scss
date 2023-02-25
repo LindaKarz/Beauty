@@ -5,14 +5,21 @@
   &_top {
     max-width: 450px;
     margin: 0 auto;
-    @include font(1.4rem, 400, 1,64rem);
+    @include font(1.4rem, 400, 1.64rem);
     color: $color-top-text;
+    @include media-mobile {
+      @include font(1.2rem, 400, 1.4rem);
+      padding: 0;
+    }
   }
   &_bottom {
     max-width: 675px;
     margin: 0 auto;
-    @include font(1.6rem, 400, 1,88rem);
-  }
+    @include font(1.6rem, 400, 1.88rem);
+    @include media-laptop {
+      padding: 0;
+    }
+}
 }
 
 .navigation__link {

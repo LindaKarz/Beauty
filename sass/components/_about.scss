@@ -1,6 +1,9 @@
 .about {
   background: url(/images/background.png) no-repeat;
   background-position: center;
+  @include media-mobile {
+    background-position: 29.5%;
+  }
 }
 
 .about__content {

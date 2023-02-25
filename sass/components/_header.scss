@@ -16,5 +16,8 @@
 .tel-number {
   @include font(1.6rem, 400, 1,88rem);
   padding-right: 40px;
+  @include media-mobile {
+    padding-right: 20px;
+  }
 }
 

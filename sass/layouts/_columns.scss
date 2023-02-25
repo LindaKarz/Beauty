@@ -1,7 +1,15 @@
 .layout-2-column {
   @include columns ($width:48.65%);
+  @include media-laptop {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .layout-4-column {
   @include columns ($width:23%);
+  @include media-laptop {
+    flex-direction: column;
+    align-items: center;
+  }
 }

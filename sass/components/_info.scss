@@ -8,6 +8,13 @@
   align-items: center;
   background: $color-brand;
   padding: 35px 45px 35px 40px;
+  @include media-laptop {
+    margin-bottom: 20px;
+  }
+  @include media-mobile {
+    max-width: 320px;
+    padding: 15px;
+  }
 }
 
 .subscribe__content {
@@ -28,14 +35,21 @@
   width: 140px;
   height: 140px;
   background: url(/images/envelope.png) no-repeat;
+  @include media-mobile {
+    display: none;
+  }
 }
 
 .shops {
-  max-width: 540px;
+  width: 540px;
   display: flex;
   align-items: center;
   background: $color-brand;
   padding: 35px 45px 35px 40px;
+  @include media-mobile {
+    max-width: 320px;
+    padding: 15px;
+  }
 }
 
 .shops__title {
