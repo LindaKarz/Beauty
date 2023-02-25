@@ -1,0 +1,20 @@
+.icon {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border: 2px solid $color-brand;
+  border-radius: 50%;
+  background: $color-light-text;
+  &_youtube {
+    background: url(/images/youtube.svg) no-repeat center;
+  }
+  &_vk {
+    background: url(/images/vk.svg) no-repeat center;
+  }
+  &_facebook {
+    background: url(/images/facebook.svg) no-repeat center;
+  }
+  &_instagram {
+    background: url(/images/instagram.svg) no-repeat center;
+  }
+}

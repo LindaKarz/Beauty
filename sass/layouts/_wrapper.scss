@@ -22,4 +22,16 @@
   &_info {
     padding: 0 0 133px 0;
   }
+  &_footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 0;
+  }
+  &_footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+  }
 }

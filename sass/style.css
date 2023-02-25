@@ -59,8 +59,8 @@ h4 {
 
 h5 {
   font-size: 1.4rem;
-  font-weight: 700;
-  line-height: 1.6rem;
+  font-weight: 400;
+  line-height: 1.64rem;
   font-style: normal;
 }
 
@@ -168,6 +168,28 @@ li {
   padding: 9px 0 9px 25px;
   border-radius: 30px;
   border: none;
+  cursor: pointer;
+}
+
+.icon {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border: 2px solid #66C05D;
+  border-radius: 50%;
+  background: #FFFFFF;
+}
+.icon_youtube {
+  background: url(/images/youtube.svg) no-repeat center;
+}
+.icon_vk {
+  background: url(/images/vk.svg) no-repeat center;
+}
+.icon_facebook {
+  background: url(/images/facebook.svg) no-repeat center;
+}
+.icon_instagram {
+  background: url(/images/instagram.svg) no-repeat center;
 }
 
 .wrapper {
@@ -194,6 +216,18 @@ li {
 }
 .wrapper_info {
   padding: 0 0 133px 0;
+}
+.wrapper_footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 0;
+}
+.wrapper_footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
 }
 
 .layout-2-column {
@@ -340,6 +374,39 @@ li {
   max-width: 141px;
   color: #FFFFFF;
   padding-bottom: 25px;
+}
+
+.social-icons {
+  max-width: 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-icons > * {
+  margin-right: 20px;
+}
+.social-icons :last-child {
+  margin: 0;
+}
+
+.footer__bottom {
+  background: #EFEFEF;
+}
+
+.footer__description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  font-style: normal;
+  color: #828282;
+}
+
+.privacy-policy {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  font-style: normal;
+  color: #828282;
 }
 
 /*# sourceMappingURL=style.css.map */
